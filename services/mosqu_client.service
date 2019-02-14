@@ -2,7 +2,7 @@
 Description=mosquitto client custom logging service
 
 [Service]
-ExecStart=/home/andi/log/logging.sh
+ExecStart=/home/andi/.mosqu_conf/scripts/logging.sh
 
 [Install]
 WantedBy=multi-user.target
