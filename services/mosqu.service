@@ -1,0 +1,8 @@
+[Unit]
+Description=mosquitto custom service
+
+[Service]
+ExecStart=/usr/local/sbin/mosquitto -c /etc/mosquitto/conf.d/myconfig.conf
+
+[Install]
+WantedBy=multi-user.target

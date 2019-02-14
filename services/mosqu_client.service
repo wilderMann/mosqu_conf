@@ -1,0 +1,8 @@
+[Unit]
+Description=mosquitto client custom logging service
+
+[Service]
+ExecStart=/home/andi/log/logging.sh
+
+[Install]
+WantedBy=multi-user.target

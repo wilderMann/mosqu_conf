@@ -1,0 +1,18 @@
+# Allow anonymous acces to the sys
+topic read $SYS/#
+
+# Allow anonymous to read
+topic readwrite /#
+
+# esp readwrite to the loop
+user esp
+topic /#
+
+# andi readwrite
+user andi
+topic readwrite /#
+topic read $SYS/#
+
+# cloud
+user adafruit
+topic write /#
